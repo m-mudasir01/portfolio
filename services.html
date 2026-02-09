@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+    #services {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #333;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.service-card {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.service-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li> <a href="/introduction.html">Introduction</a></li>
+                    <li> <a href="/services.html">Services</a></li>
+                    <li> <a href="/Blog.html">Blog</a></li>
+                    <li> <a href="/contact.html">contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="hamburg.png" alt="" width="23">
+                <img class="cross" src="cross.png" alt="" width="23">
+            </div>
+            <section id="services">
+                <h2>Our Services</h2>
+                <div class="services-container">
+                    <div class="service-card">
+                        <img src="app-development.png" alt="Service 1">
+                        <h3>Web Development</h3>
+                        <p>We build responsive and modern websites using HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="web-design.png" alt="Service 2">
+                        <h3>UI/UX Design</h3>
+                        <p>We design intuitive and user-friendly interfaces for your applications.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="seo.png" alt="Service 3">
+                        <h3>SEO Optimization</h3>
+                        <p>We improve website visibility and traffic through SEO best practices.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="development.png" alt="Service 4">
+                        <h3>Moblie App Development</h3>
+                        <p>We create efficient and engaging mobile applications for Android and iOS.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="machine-learning.png" alt="Service 5">
+                        <h3>Machine Learning /AI </h3>
+                        <p>We explore AI and Machine Learning to build intelligent and automated solutions.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="ethical-hacking.png" alt="Service 6">
+                        <h3>Ethical Hacking</h3>
+                        <p>We help identify security vulnerabilities, perform penetration testing, and improve system security to protect digital
+                        assets.</p></p>
+                    </div>
+                    <div class="service-card">
+                        <img src="cyber-security.png" alt="Service 7">
+                        <h3>Cyber Security</h3>
+                        <p>We help protect websites and systems by identifying security risks, improving data protection, and ensuring safe
+                            digital environments.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="graphic-design.png" alt="Service 8">
+                        <h3>Graphic Designer</h3>
+                        <p>We create visually appealing designs, logos, banners, and illustrations to communicate ideas effectively and
+                            enhance brand identity.</p>
+                    </div>
+
+
+                </div>
+            </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
